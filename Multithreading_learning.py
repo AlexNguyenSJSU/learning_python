@@ -1,3 +1,4 @@
+#import threading
 import multiprocessing
 import time
 
@@ -5,14 +6,12 @@ import time
 def cal_square(numbers):
 	print("calculate square number")
 	for n in numbers:
-		time.sleep(0.2)
 		print ('square:', n*n)
 
 
 def cal_cube(numbers):
 	print("calculate cube number \n")
 	for n in numbers:
-		time.sleep(0.2)
 		print ('cube:', n*n*n)
 
 arr = [2,3,7,9]
