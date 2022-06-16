@@ -29,6 +29,4 @@ try:
 except:
 	print ("error")
 
-import multiprocessing
 print("Số lượng cpu : ", multiprocessing.cpu_count())
-
